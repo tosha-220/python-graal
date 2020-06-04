@@ -1,0 +1,8 @@
+version: "2"
+services:
+  test-project:
+    restart: always
+    image: test-project
+    ports:
+      - "8080:8080"
+      - "5005:5005"
